@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS Classic</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>ROCK-PAPER-SCISSORS</h1>
-    <h2>Very simple UI? Psst...I know, I know. But it works, try it!</h2>
-    <p>Pick your fighter here:</p>
-    <input type="button" value="rock"></input>
-    <input type="button" value="paper"></input>
-    <input type="button" value="scissors"></input>
-    <button id="reset">Reset</button>
-    <p id="result"></p>
-     
+   <div class="container">
+        <h1>ROCK - PAPER - SCISSORS</h1>
+        <h2>Very simple UI huh? Psst...I know, I know. <br>But it works, try it!</h2>
+        <h3>Pick your fighter here:</h3>
+        <div class="buttons">
+        <input type="button" value="rock"></input>
+        <input type="button" value="paper"></input>
+        <input type="button" value="scissors"></input>
+        <button id="reset">Reset</button>
+    </div>
+        <p id="result"></p>
+</div>
     <script src="app.js"></script>
 </body>
 </html>

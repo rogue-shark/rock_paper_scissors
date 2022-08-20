@@ -25,8 +25,8 @@ function playRound(userSelection) {
            userSelection == 'scissors' && computerSelection == 'paper'
       ){
            playerScore += 1
-           result = `You win as ${userSelection} beats ${computerSelection}}
-                     \n Player Score: ${playerScore} & Computer Score:${computerScore}`
+           result = `You win as ${userSelection} beats ${computerSelection}
+                     \n Player Score: ${playerScore} \n Computer Score:${computerScore}`
            if(playerScore == 5){
             result = `game over, you win! Reset to play agian.`
             stopPlay() 
@@ -38,7 +38,7 @@ function playRound(userSelection) {
         else{
             computerScore += 1
             result = `Computer win as ${computerSelection} beats ${userSelection}
-                     \n Player Score: ${playerScore} & Computer Score: ${computerScore}`
+                     \n Player Score: ${playerScore} \n Computer Score: ${computerScore}`
             if(computerScore == 5){
                         result = `game over, computer wins! Reset to play agian.`
                         stopPlay() 
