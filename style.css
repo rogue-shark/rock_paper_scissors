@@ -69,6 +69,7 @@ input[type = "button"]{
 @media (max-width: 730px) {
     .container{
         width: 100%;
+        transform: translateY(0);
     }
     .buttons{
         flex-direction: column;
