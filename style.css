@@ -67,6 +67,9 @@ input[type = "button"]{
 }
 
 @media (max-width: 730px) {
+    body{
+        background-color: #242423;
+    }
     .container{
         width: 100%;
         transform: translateY(0);
