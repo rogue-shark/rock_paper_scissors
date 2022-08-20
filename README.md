@@ -2,11 +2,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/rogue-shark/rock_paper_scissors">
+    <a href="https://rogue-shark.github.io/rock_paper_scissors/">
       D E M O
     </a>
     <span> | </span>
-    <a href="https://rogue-shark.github.io/rock_paper_scissors/">
+    <a href="https://github.com/rogue-shark/rock_paper_scissors">
       Solution
   </h3>
 </div>
